@@ -1,0 +1,17 @@
+-- Define variables
+local num1 = 10
+local num2 = 5
+
+-- Perform arithmetic operations
+local sum = num1 + num2
+local difference = num1 - num2
+local product = num1 * num2
+local quotient = num1 / num2
+
+-- Print the results
+print("Number 1:", num1)
+print("Number 2:", num2)
+print("Sum:", sum)
+print("Difference:", difference)
+print("Product:", product)
+print("Quotient:", quotient)

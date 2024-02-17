@@ -17,7 +17,10 @@ Sum: 15
 Difference: 5
 Product: 50
 Quotient: 2
-]] -- Define variables
+
+]] 
+
+-- Define variables
 local num1 = 10
 local num2 = 5
 
