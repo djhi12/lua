@@ -59,4 +59,23 @@ part7.Position = Vector3.new(70, 5, 3)
 local part8 = Instance.new("Part")
 part8.Name = "Part8"
 part8.Parent = Workspace
-part8.BrickColor = BrickColor.new("
+part8.BrickColor = BrickColor.new("Bright violet")
+part8.Size = Vector3.new(5, 10, 5)
+part8.Material = Enum.Material.DiamondPlate
+part8.Position = Vector3.new(80, 5, 3)
+
+local part9 = Instance.new("Part")
+part9.Name = "Part9"
+part9.Parent = Workspace
+part9.BrickColor = BrickColor.new("Pastel brown")
+part9.Size = Vector3.new(5, 10, 5)
+part9.Material = Enum.Material.DiamondPlate
+part9.Position = Vector3.new(90, 5, 3)
+
+local part10 = Instance.new("Part")
+part10.Name = "Part10"
+part10.Parent = Workspace
+part10.BrickColor = BrickColor.new("Bright pink")
+part10.Size = Vector3.new(5, 10, 5)
+part10.Material = Enum.Material.DiamondPlate
+part10.Position = Vector3.new(100, 5, 3)
