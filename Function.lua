@@ -1,30 +1,57 @@
 --[[
-Function Definition: The program defines a function named calculateRectangleArea that takes two parameters: 
-length and width. Inside the function, it calculates the area of a rectangle by multiplying these two values 
-and stores the result in a local variable named area. The function then returns the calculated area.
+Problem Statement:
+Write a Lua program to perform arithmetic operations on two numbers using functions.
 
-Input Values: The program declares two variables, length and width, and assigns them specific values. 
-These values represent the dimensions of the rectangle, and you can change them to calculate the area 
-for different rectangles.
+Instructions:
 
-Area Calculation: The program calculates the area of the rectangle by calling the calculateRectangleArea 
-function with the length and width variables as arguments. It stores the result in a new variable called area.
+1. Define a function named performArithmetic that takes two parameters (num1 and num2) representing two numbers. This function should calculate and return the sum, difference, product, and quotient of the two numbers.
 
-Result Display: The program uses the print function to display the calculated area along with the values 
-of length and width. The output will show the area of the rectangle with the provided dimensions.
---]] -- Function to calculate the area of a rectangle
-function calculateRectangleArea(length, width)
-    local area = length * width
-    return area
+2. Define two variables num1 and num2 and assign them the values 10 and 5, respectively.
+
+3. Call the performArithmetic function with num1 and num2, and store the returned values in variables named sum, difference, product, and quotient.
+
+4. Print the following statements along with their corresponding values:
+    "Number 1: [num1]"
+    "Number 2: [num2]"
+    "Sum: [sum]"
+    "Difference: [difference]"
+    "Product: [product]"
+    "Quotient: [quotient]"
+
+Sample Output:
+    Number 1: 10
+    Number 2: 5
+    Sum: 15
+    Difference: 5
+    Product: 50
+    Quotient: 2
+
+
+Constraints:
+    All variables should be of type number.
+    Ensure division by zero is handled appropriately.
+
+--]] -- Define a function to perform arithmetic operations
+local function performArithmetic(num1, num2)
+    local sum = num1 + num2
+    local difference = num1 - num2
+    local product = num1 * num2
+    local quotient = num1 / num2
+
+    return sum, difference, product, quotient
 end
 
--- Input values
-local length = 5
-local width = 3
+-- Define variables
+local num1 = 10
+local num2 = 5
 
--- Calculate the area using the function
-local area = calculateRectangleArea(length, width)
+-- Call the function and store the results
+local sum, difference, product, quotient = performArithmetic(num1, num2)
 
--- Display the result
-print("The area of the rectangle with length " .. length .. " and width " ..
-          width .. " is " .. area)
+-- Print the results
+print("Number 1:", num1)
+print("Number 2:", num2)
+print("Sum:", sum)
+print("Difference:", difference)
+print("Product:", product)
+print("Quotient:", quotient)
