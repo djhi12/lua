@@ -18,9 +18,23 @@ Difference: 5
 Product: 50
 Quotient: 2
 
-]] 
+]] --[[
+Problem Statement: Arithmetic Challenge
 
--- Define variables
+Suppose we have two numbers, num1 and num2, with the following values:
+
+num1 is 15.
+num2 is 7.
+Your task is to calculate the following:
+
+The sum of num1 and num2.
+The difference between num1 and num2.
+The product of num1 and num2.
+The quotient when num1 is divided by num2.
+
+Write down the results for each operation.
+
+--]] -- Define variables
 local num1 = 10
 local num2 = 5
 

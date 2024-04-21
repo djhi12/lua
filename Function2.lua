@@ -17,5 +17,17 @@ local function Sub()
     print(num1 - num2)
 end
 
+local function Multi()
+    num1 = 20
+    num2 = 90
+    print(num1 * num2)
+end
+
+local function Div()
+    num1 = 200
+    num2 = 23
+    print(num1 / num2)
+end
+
 Main()
 
