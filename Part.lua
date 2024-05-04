@@ -11,3 +11,4 @@ myPart.Material = Enum.Material.SmoothPlastic -- Set the material of the part
 
 -- Parent the part to the Workspace
 myPart.Parent = game.Workspace
+

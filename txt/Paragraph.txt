@@ -8,3 +8,5 @@ print("Lua is known for its speed and small memory footprint.")
 print("Many popular software applications and games use Lua for scripting.")
 print("Lua supports both procedural and object-oriented programming paradigms.")
 print("Overall, Lua is a versatile and powerful scripting language.")
+
+
