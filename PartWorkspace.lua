@@ -11,3 +11,4 @@ part.Material = Enum.Material.DiamondPlate
 
 -- Change position
 part.Position = Vector3.new(10, 5, 3)
+
