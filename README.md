@@ -66,9 +66,9 @@ For this course, we will primarily use Roblox Studio, which provides a great pla
 
 ## Sources
 
-- Official Lua Documentation: The official Lua website provides comprehensive documentation and resources for learning Lua. Lua.org
+- Official Lua Documentation: The official Lua website provides comprehensive documentation and resources for learning Lua. [Lua.org - Docs](https://www.lua.org/docs.html)
 - Programming in Lua: A detailed book by Roberto Ierusalimschy, one of the creators of Lua. Programming in Lua
-- Roblox Developer Hub: A wealth of tutorials and resources for using Lua within Roblox Studio. Roblox Developer Hub
+- Roblox Developer Hub: A wealth of tutorials and resources for using Lua within Roblox Studio. [Roblox Developer Hub](https://devforum.roblox.com/t/roblox-developer-hub-help/622179)
 - Online Lua Tutorials: Various free resources and tutorials available online for additional practice and learning.
 
 ## Best Practices
