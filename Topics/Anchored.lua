@@ -7,3 +7,5 @@ part.Parent = game.Workspace -- Set the parent of the part to the Workspace
 
 -- Change the opacity of the part
 part.Transparency = 0.5 -- Set the transparency of the part (0.5 means 50% opacity)
+
+
