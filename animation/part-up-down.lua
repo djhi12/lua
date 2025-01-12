@@ -7,7 +7,7 @@ local TweenService = game:GetService("TweenService")
 
 -- Define the part's initial and target positions
 local startPosition = part.Position
-local endPosition = startPosition + Vector3.new(10, 0, 0) -- Adjust X-axis movement
+local endPosition = startPosition + Vector3.new(0, 10, 0) -- Adjust Y-axis movement
 
 -- Define tween information
 local tweenInfo = TweenInfo.new(2, -- Duration (seconds)
